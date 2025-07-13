@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+    <title>Portfolio | About</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class=' bg-gradient-to-b from-[#0b0c1c] to-black min-h-screen text-white font-poppins'>
+
+    <section class="w-[calc(100%-200px)] mx-auto py-20">
+    <!-- Header -->
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold mb-4">👨‍💻 About Me</h1>
+      <hr class="border-t-2 border-pink-500 w-96 mx-auto mb-6">
+      <p class="text-gray-300 text-lg">A brief introduction about who I am, what I do, and what I'm passionate about.</p>
+    </div>
+
+    <!-- Content Section -->
+    <div class="flex flex-col md:flex-row items-center gap-12 mt-12">
+      <!-- Image -->
+      <div class="md:w-1/3 w-full text-center">
+        <img src="{% static 'your_app/images/profile.jpg' %}" alt="Profile Picture" class="rounded-full w-60 h-60 mx-auto object-cover shadow-lg border-4 border-pink-500" />
+      </div>
+
+      <!-- Bio -->
+      <div class="md:w-2/3 text-lg leading-relaxed space-y-4">
+        <p>Hello! I'm <span class="font-semibold text-blue-400">Ramanuj Puspant Bharti</span>, a passionate developer with a strong background in Python, web development, and data science.</p>
+        <p>My journey started with building small apps and bots, and over time, I’ve grown into creating full-stack applications with Django, working with NLP models, and deploying real-time dashboards using Streamlit.</p>
+        <p>When I'm not coding, I enjoy designing interfaces, writing blogs, exploring AI, and diving into sci-fi movies</p>
+        <p>Pursuing B.Tech in Electrical Engineering.I am willing to join an organization where I can showcase my ability to learn quickly and apply the same in the fast changing technology trends.</p>
+      </div>
+    </div>
+  </section>
+
+<div class="w-[calc(100%-150px)] mx-auto grid md:grid-cols-2 gap-8 mt-16">
+  
+  <!-- Personal Details Card -->
+  <div class=" bg-red-100 text-gray-800 p-6 rounded-lg shadow-lg">
+    <h3 class="text-2xl font-bold mb-4 border-b pb-2">🧍 Personal Details</h3>
+    <ul class="list-disc list-inside space-y-2">
+      <li><strong>Name:</strong> RamanujPuspant Bharti</li>
+      <li><strong>Location:</strong> Kolkata, India</li>
+      <li><strong>Email:</strong> ramanujbharti287@gmail.com</li>
+      <li><strong>Phone:</strong> +91-6207714364</li>
+      <li><strong>Languages:</strong> English, Hindi</li>
+      <li><strong>Date Of Birth :</strong> 01/10/2003</li>
+    </ul>
+  </div>
+
+  <!-- Academic Details Card -->
+  <div class="bg-yellow-100 text-gray-800 p-6 rounded-lg shadow-lg">
+    <h2 class="text-2xl font-bold mb-4 border-b pb-2">🎓 Academic Details</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li><strong>Degree:</strong> B.Tech in Electrical Engineering</li>
+      <li><strong>University:</strong> Techno Main Salt Lake</li>
+      <li><strong>CGPA:</strong> 6.85 / 10</li>
+      <li><strong>Graduation Year:</strong> 2026</li>
+      <li><strong>Relevant Coursework:</strong> Data Structures, Machine Learning, Web Development</li>
+</ul><br>
+<h3 class="text-2xl font-bold mb-4 border-b pb-2">Scholastic details</h3>
+<ul class="list-disc list-inside space-y-2">
+    
+<li><strong>School :</strong>D.A.V Public School (2019-2021)</li>
+<li><strong>Secondary Board(CBSE)</strong>92%</li> 
+<li><strong>Senior Secondary Board(CBSE)</strong>93.2%</li> 
+</ul>
+    
+  </div>
+
+</div>
+
+    </body></html>

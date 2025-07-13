@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+    <title>Portfolio | Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class=' bg-gradient-to-b from-[#0b0c1c] to-black min-h-screen text-white font-poppins'>
+<div class="flex justify-center items-start pt-10">
+  <div class="text-center">
+    <h2 class="text-4xl font-bold text-pink-600 mb-4">🚀 Featured Projects</h2>
+    <hr class="border-t-2 border-pink-500 w-[1500px] mx-auto mb-8">
+  </div>
+</div>
+<section class="w-[calc(100%-200px)] mx-auto py-16 space-y-4">
+  <!--  Projects -->
+
+  <div class="flex flex-col md:flex-row bg-cyan-100 rounded-lg shadow-md overflow-hidden">
+    <!-- Image Half -->
+    <div class="md:w-1/2">
+      <img src="Bank.png" alt="Project 1" class="w-[650px] h-[400px] object-cover rounded-lg">
+    </div>
+    <!-- Text Half -->
+    <div class="md:w-1/2 p-6 flex flex-col justify-between">
+      <div>
+        <h3 class="text-2xl font-bold text-gray-600 mb-2"><u>Banking System</u></h3>
+        <p class="text-gray-600 mb-4">
+            A streamlined banking application built with Python and deployed on Streamlit Cloud. 
+            It manages user accounts, transactions, and balance summaries while integrating data science libraries like Pandas, NumPy, and Matplotlib for analytics and visualization.
+            Designed with an intuitive UI and real-time insights, it's ideal for demonstrating full-stack Python and data handling capabilities. </p><br>
+            <ol class="text-1xl text-gray-800 mb-2 list-disc list-inside">
+            <li>Allows account creation, transactions, and balance checks using Streamlit UI.</li>
+            <li>Utilizes Python data libraries (Pandas,Matplotlib) for data analysis and graphs.</li>
+            <li>Provides secure, lightweight financial tracking with downloadable reports.</li>
+        </ol>
+      </div><br>
+      <div class="flex items-center gap-4">
+        <a href="https://github.com/ramanuj-droid/Banking-System-OOPS" target="_blank" class="text-blue-600 hover:underline font-semibold">GitHub</a><br>
+        <a href="https://banking-system-oops-sckagy2ecucvzcfbtqxxfs.streamlit.app/" target="_blank" class="bg-gradient-to-r from-red-500 to-pink-500 text-white px-5 py-2 rounded-md font-semibold hover:opacity-90 transition">Visit Website</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Card 2 -->
+  <div class="flex flex-col md:flex-row bg-yellow-100 rounded-lg shadow-md overflow-hidden">
+    <div class="md:w-1/2">
+      <img src="Indra.png" alt="Project 1" class="w-[650px] h-[400px] object-cover rounded-lg">
+    </div>
+    <div class="md:w-1/2 p-6 flex flex-col justify-between">
+      <div>
+        <h3 class="text-2xl font-bold text-gray-800 mb-2"><u>Indra AI</u></h3>
+        <p class="text-gray-600 mb-4">
+            An intelligent chatbot developed using Python and Natural Language Processing (NLP) techniques.
+            It understands user queries, responds contextually, and offers real-time interaction.
+            Built with libraries like NLTK, spaCy, and Transformers, the app demonstrates core concepts of language understanding, intent detection,
+            and text generation, providing a smooth conversational experience through a modern UI.
+</p><br><ul class="text-1xl text-gray-800 mb-2 list-disc list-inside">
+            <li>Built with Natural Language Processing (NLP) to understand and respond to user input intelligently.</li>
+            <li>Real-time messaging with a user-friendly interface and bot interaction.</li>
+            <li>Integrated with custom-trained responses for handling FAQs, greetings, and smart replies.</li>
+        </ul>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="https://github.com/ramanuj-droid/Python-Chatbot" target="_blank" class="text-blue-600 hover:underline font-semibold">GitHub</a>
+        <a href="https://python-chatbot-pbbtt4mkj3qew7btty5wnw.streamlit.app/" target="_blank" class="bg-gradient-to-r from-red-500 to-pink-500 text-white px-5 py-2 rounded-md font-semibold hover:opacity-90 transition">Visit Website</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Card 3 -->
+  <div class="flex flex-col md:flex-row bg-white rounded-lg shadow-md overflow-hidden">
+    <div class="md:w-1/2">
+      <img src="https://via.placeholder.com/600x300" alt="Project 3" class="object-cover w-full h-full">
+    </div>
+    <div class="md:w-1/2 p-6 flex flex-col justify-between">
+      <div>
+        <h3 class="text-2xl font-bold text-gray-800 mb-2">Project Title 3</h3>
+        <p class="text-gray-600 mb-4">Another cool project! Mention tech stack like Django, React, Tailwind, APIs etc., and show off your work.</p>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="https://github.com/your-repo-3" target="_blank" class="text-blue-600 hover:underline font-semibold">GitHub</a>
+        <a href="https://your-project-url-3.com" target="_blank" class="bg-gradient-to-r from-red-500 to-pink-500 text-white px-5 py-2 rounded-md font-semibold hover:opacity-90 transition">Visit Website</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
